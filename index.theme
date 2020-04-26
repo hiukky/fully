@@ -1,0 +1,29 @@
+[Icon Theme]
+Name=Herus-icons
+Comment=Minimalist and elegant
+
+# Comment
+# KDE specific settings
+DisplayDepth=32
+LinkOverlay=link_overlay
+LockOverlay=lock_overlay
+ZipOverlay=zip_overlay
+DesktopDefault=48
+DesktopSizes=16,22,32,48,64,72,96,128
+ToolbarDefault=22
+ToolbarSizes=16,22,32,48
+MainToolbarDefault=22
+MainToolbarSizes=16,22,32,48
+SmallDefault=16
+SmallSizes=16
+PanelDefault=32
+PanelSizes=16,22,32,48,64,72,96,128
+
+# List all directories
+Directories=8x8/emblems,16x16/actions,16x16/apps,
+
+# specify the context, size, and type of each directory
+[8x8/emblems]
+Context=Emblems
+Size=8
+Type=Fixed
