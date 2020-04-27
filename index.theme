@@ -2,7 +2,6 @@
 Name=Herus-icons
 Comment=Minimalist and elegant
 
-# Comment
 # KDE specific settings
 DisplayDepth=32
 LinkOverlay=link_overlay
@@ -19,11 +18,67 @@ SmallSizes=16
 PanelDefault=32
 PanelSizes=16,22,32,48,64,72,96,128
 
-# List all directories
-Directories=8x8/emblems,16x16/actions,16x16/apps,
+# Directories
+Directories=
+16x16/places,
+22x22/places,
+24x24/places,
+32x32/places,
+48x48/places,
+64x64/places,
+72x72/places,
+96x96/places,
+256x256/places,
+512x512/places,
 
-# specify the context, size, and type of each directory
-[8x8/emblems]
-Context=Emblems
-Size=8
+# Places
+
+[16x16/places]
+Context=Places
+Size=16
+Type=Fixed
+
+[22x22/places]
+Context=Places
+Size=22
+Type=Fixed
+
+[24x24/places]
+Context=Places
+Size=24
+Type=Fixed
+
+[32x32/places]
+Context=Places
+Size=32
+Type=Fixed
+
+[48x48/places]
+Context=Places
+Size=48
+Type=Fixed
+
+[64x64/places]
+Context=Places
+Size=64
+Type=Fixed
+
+[72x72/places]
+Context=Places
+Size=72
+Type=Fixed
+
+[96x96/places]
+Context=Places
+Size=96
+Type=Fixed
+
+[256x256/places]
+Context=Places
+Size=256
+Type=Fixed
+
+[512x512/places]
+Context=Places
+Size=512
 Type=Fixed
